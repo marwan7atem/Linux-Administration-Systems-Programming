@@ -1,0 +1,3 @@
+sudo cp userdef.sh /usr/bin/
+and be sure that the script can be exexuted from any where 
+sudo chmod 777 userdef.sh

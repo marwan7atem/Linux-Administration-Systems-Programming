@@ -1,0 +1,10 @@
+sudo su - mo 
+tar -tvf archive.tar
+ls -lR
+sudo chown -R mo ./ahmed
+ls -lR
+grep -r "file" ./ahmed/ 
+rm ./ahmed/*.c
+the new user must put in group sudo to use sudo
+from any sudo user
+sudo useradd -aG sudo mo

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/output.dir/app.c.o -o output  -Wl,-rpath,/mnt/c/Users/leno/Downloads/Project_required_files/application/build/xor_cipher_build xor_cipher_build/libxor_op.so caesar_cipher_build/libcaesar_op.a -lm 
